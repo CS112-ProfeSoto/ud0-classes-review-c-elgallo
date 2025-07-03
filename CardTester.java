@@ -18,32 +18,32 @@
 
 public class CardTester {
 	/*
-	 TESTER ALGORITHM FOR CARD CLASS:
-	 - test toString()
-	 - test setValue()
-	 	- valid data (data changes + return true)
-	 	- invalid data (no data change + return false)
-	 - test setSuit()
-	 	- valid data (data changes + return true)
-	 	- invalid data (no data change + return false)
-	 - test setAll()
-	 	- valid data (data changes + return true)
-	 	- invalid data (no data change + return false)
-	 - test Default Constructor
-	 - test Full Constructor
-	 	- valid data
-	 	- invalid data (should shutdown program)
-	 - test Copy Constructor
-	 	- valid data
-	 	- invalid data (null passed, should shutdown program)
-	 - test getSuit()
-	 - test getValue()
-	 - test getPrintValue()
-	 - test equals()
-	 	- mismatching object on both instance vars (returns false)
-	 	- mismatching object on value only (returns false)
+	TESTER ALGORITHM FOR CARD CLASS:
+	- test toString()
+	- test setValue()
+	- valid data (data changes + return true)
+	- invalid data (no data change + return false)
+	- test setSuit()
+	- valid data (data changes + return true)
+	- invalid data (no data change + return false)
+	- test setAll()
+	- valid data (data changes + return true)
+	- invalid data (no data change + return false)
+	- test Default Constructor
+	- test Full Constructor
+	- valid data
+	- invalid data (should shutdown program)
+	- test Copy Constructor
+	- valid data
+	- invalid data (null passed, should shutdown program)
+	- test getSuit()
+	- test getValue()
+	- test getPrintValue()
+	- test equals()
+	- mismatching object on both instance vars (returns false)
+	- mismatching object on value only (returns false)
 		- mismatching object on suit only (returns false)
-	 	- matching object, both instance vars the same (returns true)
+	- matching object, both instance vars the same (returns true)
 	 - test getPrintCard() and printCard() //user driver in Main
 	 */
 	

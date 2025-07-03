@@ -1,4 +1,4 @@
-import javax.sound.sampled.SourceDataLine;
+//import javax.sound.sampled.SourceDataLine;
 
 /**
  * Represents one playing card from a standard 52-card deck
@@ -105,13 +105,15 @@ public class Card {
 	 */
 
 	public Card(Card original) {
-		if (original == null){
+		if (original == null) {
 			System.out.println("Unnable to copy a nonexistant null card. exiting will commence");
 			System.exit(1); // from most recent OLI knowledge, could've used an IllegalArgumentException instead
+		}
 			this.value = original.value;
 			this.suit = original.suit;
-		}
+		
 	}
+	
 	/*** MUTATOR METHODS (SETTERS) ***/
 	/**
 	 * Sets value for card only if valid, otherwise will not change instance
